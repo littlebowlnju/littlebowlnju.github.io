@@ -1,0 +1,555 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课后习题整体2-7章 [ from juju ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="juju">
+
+
+    <meta name="subtitle" content="shut up and live">
+
+
+    <meta name="Description" content="一些记录而已">
+
+
+    <meta name="keywords" content=",NJU">
+
+
+  <link rel="alternate" href="/atom.xml " title="from juju" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+        <h1 class="header-title" itemprop="headline">课后习题整体2-7章</h1>
+          <div class="post-meta">
+            <time>Feb 16, 2023</time>
+            <span itemprop="author">
+              <span itemprop="name">juju</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><h1 id="软件安全复习整理"><a href="#软件安全复习整理" class="headerlink" title="软件安全复习整理"></a>软件安全复习整理</h1><h2 id="1-软件安全概述"><a href="#1-软件安全概述" class="headerlink" title="1 软件安全概述"></a>1 软件安全概述</h2><h3 id="软件安全的重要性"><a href="#软件安全的重要性" class="headerlink" title="软件安全的重要性"></a>软件安全的重要性</h3><ol>
+<li><p>软件定义：软件是程序、数据和文档的集合体</p>
+<p>程序是完成特定功能和满足性能要求的指令序列；数据是程序运行的基础和操作的对象；文档是与程序开发、维护和使用有关的图文资料</p>
+</li>
+<li><p>软件无处不在</p>
+<p>现在是一个信息化的时代，每时每刻都有无数的软件系统在运行着。<br>软件己融入我们日常生活的方方面面，已经成为国家和社会关键基础设施的重要组成部分。</p>
+</li>
+<li><p>软件规模日益庞大</p>
+<p>随着软件功能的增强，软件的规模不断增长。软件在互联网时代的社会中发挥的作用越来越大，但同时软件担负的责任也越来越重要</p>
+</li>
+<li><p>软件漏洞普遍存在，零日漏洞成为主要安全威胁</p>
+<p>辩证唯物论的认识论和辩证唯物论的知行统一观告诉我们，人对于客观世界的认识是有局限性的，人对于客观世界的认识过程是螺旋上升的。软件是人们为了实现解决生产生活实际问题而开发的某种完成特定功能的计算机程序，因而必然存在缺陷或漏洞。</p>
+<p>软件漏洞是普遍存在的，系统软件、应用软件和第三方软件，它们在开发、部署和应用中的问题层出不穷。</p>
+<p><strong>零日漏洞是指未被公开披露的软件漏洞，没有给软件的作者或厂商以时间去为漏洞打补丁或是给出建议解决方案，从而攻击者能够利用这种漏洞破坏计算机程序、数据及设备。</strong></p>
+<p>注意，零日漏洞并不是指软件发布后被立刻发现的漏洞。</p>
+<p>恶意软件作为网络战武器对国家关键基础设施乃至整个国家的巨大破坏力。攻击者为了能够有效达到窃取数据、破坏系统的目的，可以通过挖掘或是购买零日漏洞，开发针对零日漏洞的攻击工具实施攻击。</p>
+<p><strong>利用零日漏洞开发攻击工具进行的攻击称为零日攻击。</strong></p>
+<p>零日攻击针对的漏洞由于软件厂商还没有发现或是还未及提供相应的补丁，所以零日攻击的成功率高，造成的破坏大。</p>
+</li>
+<li><p>软件安全应当引起重视，应当成为当务之急，甚至成为国家的一项竞争优势</p>
+<p>错误认识一：应对安全威胁的主要手段是密码技术，是添置边界防护等各种安全设备</p>
+<p>应该着眼于软件源头安全，源头安全需要软件安全，这是网络基础设施安全的核心</p>
+<p>错误认识二：不值得在关注软件安全，降低糟糕的软件开发、集成和部署带来的风险上花费成本。</p>
+<p>软件安全关于国家竞争力。对漏洞的掌控能力是衡量一个国家信息安全水平的重要因素</p>
+</li>
+<li><p>软件安全之路</p>
+<p>软件安全开发的最佳实践是采用从软件开发之初就不允许漏洞发生的方式，在软件开发的各个环节尽可能消除漏洞，这不仅使得软件及其用户更安全，关键基础设施更具弹性，还将节省软件企业的开发成本。</p>
+<p>100%安全的软件和系统是不存在的</p>
+<p>由于漏洞的产生、利用以及相互作用的机理复杂，因此，如何有效减少系统漏洞数量，提高信息系统整体安全性成为当前亟待解决的挑战性问题。</p>
+</li>
+</ol>
+<h3 id="软件面临的安全威胁"><a href="#软件面临的安全威胁" class="headerlink" title="软件面临的安全威胁"></a>软件面临的安全威胁</h3><p>三类：<strong>软件自身的安全（软件漏洞）、恶意代码、软件侵权</strong></p>
+<ul>
+<li><p>软件漏洞：通常被认为是软件生命周期中与安全相关的设计错误、编码缺陷及运行故障等。</p>
+<ul>
+<li><p>一方面，软件漏洞可能会造成软件在运行过程中出现错误结果或运行不稳定、崩溃等现象，甚至引起死机等情况。如os启动时发现未能驱动的硬件导致蓝屏、多线程软件导致系统因资源死锁而死机</p>
+</li>
+<li><p>另一方面，软件漏洞会被黑客发现和利用，进而实施窃取隐私信息、甚至破坏系统等攻击行为。如获取数据库存储的明文口令、假冒合法用户登录</p>
+</li>
+<li><p>漏洞利用过程：漏洞发现 - 漏洞挖掘 - 漏洞验证 - 漏洞利用 - 实施攻击</p>
+</li>
+</ul>
+</li>
+<li><p>恶意代码：Malicious Software, Malware。是在未被授权的情况下，以破坏软硬件设备、窃取用户信息、干扰用户正常使用、扰乱用户心理为目的而编制的软件或代码片段</p>
+<ul>
+<li><p>定义指出，恶意代码是软件或代码片段，实现方式有多种，如二进制执行文件、脚本语言代码、宏代码或是寄生在其他代码或启动扇区中的一段指令。</p>
+</li>
+<li><p>包括：计算机病毒（Computer Virus）蠕虫（Worm）特洛伊木马（Trojan Horse）后门（Back Door）内核套件（Rootkit）间谍软件（Spyware）恶意脚本（Malice Script）恶意广告（Dishonest Adware）流氓软件（Crimeware）逻辑炸弹（Logic Bomb）僵尸网络（Botnet）网络钓鱼（Phishing）、垃圾信息（Spam）等恶意的或令人讨厌的软件及代码片段。近几年危害甚广的勒索软件（Ransomware）也属于恶意代码范畴。</p>
+</li>
+</ul>
+</li>
+<li><p>软件侵权：指侵犯版权（著作权）。版权，又称著作权或作者权，是指作者对其创作的作品享有的人身权和财产权。软件产品开发完成后复制成本低、复制效率高，所以往往成为版权侵犯的对象</p>
+<ul>
+<li><p>常见的软件侵权行为包括：</p>
+</li>
+<li><p>未经软件著作权人许可，发表、登记、修改、翻译其软件；</p>
+</li>
+<li><p>将他人软件作为自己的软件发表或者登记，在他人软件上署名或者更改他人软件上的署名；</p>
+</li>
+<li><p>未经合作者许可，将与他人合作开发的软件作为自己单独完成的软件发表或者登记</p>
+</li>
+<li><p>复制或者部分复制著作权人的软件；</p>
+</li>
+<li><p>向公众发行、出租、通过信息网络传播著作权人的软件；</p>
+</li>
+<li><p>故意避开或者破坏著作权人为保护其软件著作权而采取的技术措施；</p>
+</li>
+<li><p>故意删除或者改变软件权利管理电子信息；</p>
+</li>
+<li><p>转让或者许可他人行使著作权人的软件著作权。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="软件安全的概念"><a href="#软件安全的概念" class="headerlink" title="软件安全的概念"></a>软件安全的概念</h3><p>国家标准定义软件安全：软件工程与软件保障的一个方面，它提供一种系统的方法来标识、分析和追踪对危害及具有危害性功能（例如数据和命令）的软件缓解措施与控制。</p>
+<p>国家标准定义软件的安全性：软件产品在指定使用周境下达到对人类、业务、软件、财产或环境造成损害的可接受的风险级别的能力</p>
+<ul>
+<li><p>用信息安全的基本属性理解软件安全</p>
+<ul>
+<li><p>信息安全三大基本属性CIA</p>
+</li>
+<li><p>保密性 Confidentiality</p>
+<ul>
+<li><p>信息安全中的保密性，也称为机密性，是指信息仅被合法的实体（如用户、进程等）访问，而不被泄漏给未授权实体的特性。（对谁保？）</p>
+</li>
+<li><p>这里所指的信息不但包括国家秘密，而且包括各种社会团体、企业组织的工作秘密及商业秘密，个人的秘密和个人隐私（如浏览习惯、购物习惯等）（保什么？）</p>
+</li>
+<li><p>保密性还包括保护数据的存在性，有时存在性比数据本身更能暴露信息。</p>
+</li>
+<li><p>对计算机的进程、中央处理器、存储、打印设备的使用也必须实施严格的保密措施，以避免产生电磁泄露等安全问题</p>
+</li>
+<li><p>软件保密性定义：“软件产品保护信息和数据的能力，以使未授权人员或系统不能阅读或修改这些信息和数据，而不拒绝授权人员或系统对它们的访问”</p>
+</li>
+<li><p>定义二：“对系统各项的保护，使其免于受到偶然的或恶意的访问、使用、更改、破坏及泄露”</p>
+</li>
+<li><p>实现保密性方法一般是通过<strong>物理隔离，信息加密，或是访问控制</strong>（对信息划分密级并为用户分配访问权限，系统根据用户的身份权限控制对不同密级信息的访问）等。</p>
+</li>
+</ul>
+</li>
+<li><p>完整性 Integrity</p>
+<ul>
+<li><p>信息安全中的完整性，是指信息资源只能由授权方或以授权的方式修改，在存储或传输过程中不被未授权、未预期或无意篡改、销毁，或在篡改后能够被迅速发现。</p>
+</li>
+<li><p>不仅仅要考虑数据的完整性，还要考虑操作系统的完整性，即保证系统以无害的方式按照预定的功能运行，不被有意的或者意外的非法操作所破坏。</p>
+</li>
+<li><p>可以将软件完整性理解为软件产品能够按照预期的功能运行，不受任何有意的或者无意的非法错误所破坏的软件安全属性。</p>
+</li>
+<li><p>实现完整性的方法一般分为：<strong>预防和检测</strong>两种机制。预防机制通过阻止任何未经授权的方法来改写数据的企图，如<strong>加密和访问控制</strong>，以确保数据的完整性。检测机制并不试图阻止完整性的破坏，而是通过分析数据本身或是用户、系统的行为来发现数据的完整性是否遭受破坏，如<strong>数字签名、哈希（Hash）值计算</strong>等。</p>
+</li>
+</ul>
+</li>
+<li><p>可用性 Availability</p>
+<ul>
+<li><p>信息安全中的可用性，是指信息资源（信息、服务和IT资源等）可被合法实体访问并按要求的特性使用。</p>
+</li>
+<li><p>可用性被定义为保证授权实体在需要时可以正常访问和使用系统信息的属性。</p>
+</li>
+<li><p>可采取备份与灾难恢复、应急响应、系统容侵等许多安全措施</p>
+</li>
+</ul>
+</li>
+<li><p>其他安全属性：</p>
+<ul>
+<li><p>可认证性 Authenticity。方法：数字签名、哈希函数以及基于口令的身份认证、生物特征认证、生物行为认证以及多因素认证技术。</p>
+</li>
+<li><p>授权 Authorization。访问控制模型</p>
+</li>
+<li><p>可审计性或可审查性 Accountability Auditability</p>
+</li>
+<li><p>抗依赖性 Non-Repudiation，不可否认性。数字签名、可信第三方认证技术等，可审计性也是有效实现抗抵赖性的基础。</p>
+</li>
+<li><p>可控性 Controllability。管理机构可以通过信息监控、审计、过滤等手段对系统活动、信息的内容及传播进行监管和控制。</p>
+</li>
+<li><p>可存活性 Survivability。措施：系统容侵、备份与恢复</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="软件安全的研究内容，如何研究的"><a href="#软件安全的研究内容，如何研究的" class="headerlink" title="软件安全的研究内容，如何研究的"></a>软件安全的研究内容，如何研究的</h3><ul>
+<li><p>信息保障的概念：通过确保信息和信息系统的可用性、完整性、保密性、可认证性和不可否认性等特性来保护信息系统的信息作战行动，包括综合利用保护、探测和响应能力以恢复系统的功能。</p>
+<ul>
+<li>核心思想是“纵深防护策略”：人、技术和操作是3个核心因素，包括了主机、网络、系统边界和支撑性基础设施等多个网络环节之中，如何实现保护（Protection）、检测（Detection）、响应（Reaction）和恢复（Restore）有机结合的动态技术体系，这就是所谓的PDRR（或称PDR2）模型</li>
+</ul>
+</li>
+<li><p>网络空间安全概念</p>
+<ul>
+<li><p>网络空间（Cyberspace）不再只包含传统互联网所依托的各类电子设备，还包含了重要的基础设施以及各类应用和数据信息，人也是构成网络空间的一个重要元素。</p>
+</li>
+<li><p>网络空间安全（CyberSecurity）不仅关注传统信息安全研究的信息的保密性、完整性和可用性，同时还关注构成网络空间的基础设施的安全和可信，以及网络对现实社会安全的影响。</p>
+</li>
+</ul>
+</li>
+<li><p>软件安全是信息安全保障的重要内容</p>
+<ul>
+<li><p>信息安全保障的目标，主要是确保信息及信息系统的机密性、完整性、可用性、可核查性、真实性、抗抵赖性等，包括信息系统的保护、检测和恢复能力，以降低信息系统的脆弱性，减少风险。</p>
+</li>
+<li><p>降低系统脆弱性的最有效方法就是漏洞分析，因此，漏洞分析是信息安全保障的基础，在信息安全保障中占据核心地位</p>
+</li>
+</ul>
+</li>
+<li><p>软件安全防护的基本方法</p>
+<ul>
+<li><p>软件安全防护围绕漏洞消除展开，有两种基本方法：</p>
+</li>
+<li><p>将安全保障措施置于软件发布运行之时：采用多种检测、分析、挖掘技术对安全错误或是安全漏洞进行发现、分析、评价，然后采取多种安全控制措施进行错误修复和风险控制，如传统的打补丁、防病毒、防火墙、入侵检测、应急响应等。</p>
+</li>
+<li><p>分析软件安全错误发生的原因，将安全错误的修正嵌入到软件开发生命周期的整个阶段。通过对需求分析、设计、实现、测试、发布，以及运维等各阶段相关的软件安全错误的分析与控制，以期大大减少软件产品的漏洞数量，使软件产品的安全性得到有效提高。</p>
+<ul>
+<li>该方法是<strong>将安全保障的实施开始于软件发布之前，尤其强调从软件生命周期的早期阶段开始安全考虑</strong>，从而减少软件生命周期的后期系统运行过程中安全运维的工作量，提高安全保障效果。从系统开发需求阶段就引入安全要素要比在系统维护阶段才考虑安全问题所花费的错误修复成本要低很多。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>软件安全防护的主要技术</p>
+<ul>
+<li><p>软件安全属性的认知（产品视角，</p>
+</li>
+<li><p>系统安全工程</p>
+<ul>
+<li>系统安全工程可以在系统生命周期的不同阶段对安全问题提供指导，例如，<strong>对于已经发布运行的软件，可以采用系统测试、风险评估与控制等方法构建安全防御体系；而对于尚待开发的系统，也可以应用系统安全工程的思想方法来提高目标系统的安全性</strong>。</li>
+</ul>
+</li>
+<li><p>软件安全开发</p>
+<ul>
+<li><p>以软件的安全性为核心，将安全要素嵌入软件开发生命周期的全过程，有效减少软件产品潜在的漏洞数量或控制在一个风险可接受的水平内，提高软件系统的整体安全性。</p>
+</li>
+<li><p>软件安全开发是系统安全工程应用的最高阶段，也是解决信息安全问题的最根本途径</p>
+</li>
+<li><p>涉及几个方面：软件安全需求分析、设计、编码、测试、部署</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="课后概念性习题"><a href="#课后概念性习题" class="headerlink" title="课后概念性习题"></a>课后概念性习题</h3><ul>
+<li><p>什么是零日漏洞？什么是零日攻击？</p>
+</li>
+<li><p>为什么说面对当前的全球网络空间安全威胁，必须对软件安全给予强烈关注？</p>
+</li>
+<li><p>零日漏洞威胁实际上反映了软件系统存在的一个什么问题？</p>
+<ul>
+<li>软件漏洞是普遍存在的，系统软件、应用软件和第三方软件，它们在开发、部署和应用中的问题层出不穷。</li>
+</ul>
+</li>
+<li><p>软件安全威胁可以分为几类？</p>
+</li>
+<li><p>试谈谈对软件漏洞的认识，举出软件漏洞造成危害的事件例子</p>
+<ul>
+<li><p>操作系统启动时发现未能驱动的硬件而导致蓝屏</p>
+</li>
+<li><p>应用软件由于存在内存泄露，运行时系统内容消耗越来越大，直至最后崩溃</p>
+</li>
+<li><p>多线程软件对线程同步考虑不周，导致系统因资源死锁而死机。</p>
+</li>
+<li><p>软件使用明文存储用户口令，黑客通过数据库漏洞直接获取口令明文。</p>
+</li>
+<li><p>软件对用户登录的安全验证强度太低，黑客假冒合法用户登录。</p>
+</li>
+<li><p>软件存在缓冲区溢出漏洞，黑客利用溢出攻击而获得远程用户权限。</p>
+</li>
+</ul>
+</li>
+<li><p>什么是恶意代码？除了传统的计算机病毒，还有哪些恶意代码类型？</p>
+</li>
+<li><p>有哪些软件侵权行为？</p>
+</li>
+<li><p>谈谈对软件安全概念的理解</p>
+</li>
+<li><p>简述软件和软件工程的概念。</p>
+<ul>
+<li>软件工程：采用工程的理念、原理、技术和方法来开发和维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，从而经济地开发出高质量的软件并有效地进行维护。</li>
+</ul>
+</li>
+<li><p>对照一般软件工程的概念，软件安全工程主要增添了哪些任务？</p>
+<ul>
+<li>在软件开发的各个环节中进行漏洞的预防和分析，能够快速、高效地发现软件中地安全问题。将安全要素嵌入软件开发生命周期的全过程，将安全作为功能需求的必要组成部分，保留采用风险管理、身份认证、访问控制、数据加密保护和入侵检测等传统安全方法。</li>
+</ul>
+</li>
+<li><p><em>谈谈软件安全与软件危机、软件质量和软件质量保证、软件保障、软件可靠性、应用软件系统安全、可信软件和软件定义安全等概念的区别和联系。</em></p>
+</li>
+<li><p>确保软件安全的基本思路是什么？软件安全涉及的技术主要有哪些方面？</p>
+</li>
+</ul>
+</div>
+          <nav class="post-nav">
+    
+    
+    <a class="post-nav-item post-nav-next" href="/2023/02/16/hello-world/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">Hello World</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by juju using
+        <a target="_blank" rel="noopener" href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a target="_blank" rel="noopener" href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>
